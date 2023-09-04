@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans Thai', sans-serif;
+}
+
+button {
+  border: none;
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+  margin: 0 1rem;
+  background-color: black;
+  color: white;
+}
+
+nav {
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1rem;
+}
+
+section {
+  text-align: center;
+  width: auto;
+}
+
+h1 {
+  margin: 1rem;
+}
+
+footer {
+  position: static;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.tableData {
+  max-width: 600px;
+  margin: auto;
+  /* border: 1px solid black; */
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+input, select{
+  padding: 5px 10px;
+  background-color: var(--gry);
+  width: auto;
+  margin: 1rem 0;
+  border: 1px solid gray;
+}
+input, select, .result {
+  padding: 5px 10px;
+  width: auto;
+  margin: 1rem 0;
+}
+
+.container {
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: 200px minmax(100px, 1fr) 300px;
+  grid-gap: 5px;
+  overflow-x: auto;
+  
+}
+
+.column {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
